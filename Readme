@@ -1,0 +1,93 @@
+# Federated Learning for Disease Prediction
+
+This project implements a simple **Federated Learning** setup using TensorFlow, NumPy, and Pandas.
+It trains local models on different partitions of data and aggregates them using **Federated Averaging**.
+
+## FedHealth Architecture
+
+![Overview of FedHealth Framework](fedreted_logic_image.png)
+
+## Project Structure
+
+```
+├── data/
+│   ├── Training.csv
+│   └── Testing.csv
+│
+├── models/
+│   └── global_model.h5
+│
+├── results/
+│   └── accuracy.json
+│
+├── src/
+│   ├── __init__.py
+│   ├── data_preprocessing.py
+│   ├── model_utils.py
+│   ├── federated_training.py
+│   └── main.py
+│
+├── README.md
+└── requirements.txt
+```
+
+---
+
+## Folders
+
+- **data/**: Contains the training and testing CSV files.
+- **models/**: Stores the saved global model after federated training.
+- **results/**: Contains evaluation results like accuracies.
+- **src/**: Contains all Python source code split into modular files.
+
+---
+
+## Files
+
+- **data_preprocessing.py**: Functions for loading and preparing data.
+- **model_utils.py**: Functions for creating and evaluating models.
+- **federated_training.py**: Functions for client training and federated averaging.
+- **main.py**: Main file to run the federated training pipeline.
+- **requirements.txt**: List of Python libraries needed.
+
+---
+
+## How to Run
+
+1. Install required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+2. Run the main script:
+
+```bash
+python src/main.py
+```
+
+3. Outputs:
+   - Global model saved at `models/global_model.h5`
+   - Client accuracies and global accuracy saved at `results/accuracy.json`
+
+---
+
+## Requirements
+
+- TensorFlow
+- NumPy
+- Pandas
+- scikit-learn
+
+---
+
+## Notes
+
+- This project is designed for understanding basic federated learning concepts.
+- You can adjust `num_clients` in `main.py` to simulate different numbers of clients.
+- You can replace the dataset with any other classification dataset for experiments.
+
+---
+
+**Made with for learning federated machine learning!**
+
