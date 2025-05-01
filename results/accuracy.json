@@ -1,1 +1,1 @@
-{"global_accuracy": 0.9761904761904762, "client_accuracies": {"Client 1": 89.85, "Client 2": 92.89, "Client 3": 97.97, "Client 4": 95.43, "Client 5": 93.4}}
+{"global_accuracy": 0.9523809523809523, "client_accuracies": {"Client 1": 93.4, "Client 2": 92.39, "Client 3": 92.89, "Client 4": 89.34, "Client 5": 91.88}}
