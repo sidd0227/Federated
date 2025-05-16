@@ -5,9 +5,14 @@ from sklearn.metrics import accuracy_score
 def create_model(input_shape, num_classes):
     model = tf.keras.Sequential([
         tf.keras.layers.InputLayer(input_shape=(input_shape,)),
+        tf.keras.layers.Dense(64, activation='relu'),
+        tf.keras.layers.Dropout(0.3),
+        tf.keras.layers.Dense(32, activation='relu'),
         tf.keras.layers.Dense(num_classes, activation='softmax')
     ])
-    model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+    model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=0.001),
+                  loss='sparse_categorical_crossentropy',
+                  metrics=['accuracy'])
     return model
 
 def train_local_model(X_train, y_train, X_val, y_val, input_shape, num_classes):

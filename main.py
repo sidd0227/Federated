@@ -8,7 +8,7 @@ from src.data_utils import preprocess_data, split_data_for_clients
 from src.model_utils import create_model, train_local_model
 from src.federated_learning import federated_averaging
 
-def train_and_save(file_path, test_file_path, num_clients=5):
+def train_and_save(file_path, test_file_path, num_clients=20):
     df, label_encoder = preprocess_data(file_path)
     test_df, _ = preprocess_data(test_file_path)
 
@@ -55,4 +55,4 @@ def train_and_save(file_path, test_file_path, num_clients=5):
     print("✅ Training complete!")
 
 if __name__ == "__main__":
-    train_and_save('data/Training.csv', 'data/Testing.csv', num_clients=5)
+    train_and_save('data/Training.csv', 'data/Testing.csv', num_clients=20)
